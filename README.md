@@ -3,6 +3,9 @@
 
 https://www.sonu.live/lnmialu
 
+https://www.sonu.live/lnmialu/add.html
+
+https://www.sonu.live/lnmialu/participants.html
 
 https://www.sonu.live/lnmialu/style.css
 
