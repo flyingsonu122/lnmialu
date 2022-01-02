@@ -78,17 +78,17 @@
                     <h1 class="form_header">Participation Form</h1>
                     <form autocomplete="on" class="flexbox"
                         action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdcwcNLI2W_mKen4z6GUyQn6sEXLtlvCLvjZjlUOiMblsk0Lw/formResponse"
-                        method="post" target="_blank" onsubmit="ch();">
+                        method="post" target="main" id="myForm" onsubmit="ch();">
                         <input type="text" id="name" name="entry.2005620554" value="" placeholder="Full Name" required>
                         <input type="email" id="email" name="entry.1045781291" value="" placeholder="Email" required>
                         <input type="tel" id="mobile" name="entry.1166974658" value="" placeholder="Mobile">
                         <input type="text" id="course" name="entry.1065046570" value="" placeholder="Course" required>
-                        <input type="text" id="batch" name="entry.1225361862" value="" placeholder="Batch" required>
+                        <input type="number" id="batch" name="entry.1225361862" value="" placeholder="Batch" required>
                         <input type="number" id="roll" name="entry.839337160" value="" placeholder="Roll no.">
                         <p>Programming languages you can work on</p>
-                        <input type="text" name="entry.1457380529" value="" id="" placeholder="Skills">
+                        <input type="text" name="entry.1457380529" value=""  placeholder="Skills">
                         <div class="button flexbox">
-                            <button type="submit" id="sub" >Submit</button>
+                            <button type="submit" >Submit</button>
                             <button type="reset">Reset</button>
                         </div>
                     </form>
@@ -98,11 +98,14 @@
         <div class="image flexbox">
             <img src="./images/logo_laap.png" alt="laap">
         </div>
-
+    
 
         <script>
             function ch() {
-                window.location.assign("participants.html")
+                setTimeout(() => {
+                    document.getElementById("myForm").reset();
+                    window.location.assign("participants.html");
+                }, 5000);
             }
 
         </script>
