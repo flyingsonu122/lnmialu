@@ -69,6 +69,16 @@
             "Roll_No": 1334,
             "Skills": "Programming ",
             "Batch": 2017
+        },
+        {
+            "Timestamp": 44563.82561295139,
+            "Full_Name": "Rishav Kr. Singh",
+            "Email": "rishavsingh9451@gmail.com",
+            "Course": "MCA",
+            "Phone_number": 8271973256,
+            "Roll_No": 19530,
+            "Skills": "Coding",
+            "Batch": 2022
         }
     ]
 }
