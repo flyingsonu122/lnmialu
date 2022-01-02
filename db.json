@@ -1,14 +1,14 @@
 {
     "data": [
         {
-            "Timestamp": 44554.90038824074,
-            "Full_Name": "Supriya Kumari",
-            "Email": "supriya30769@gmail.com",
+            "Timestamp": 44563.7407897338,
+            "Full_Name": "Sonu Kumar Kushwaha",
+            "Email": "flyingsonu736@gmail.com",
             "Course": "BCA",
-            "Phone_number": "08797113628",
-            "Roll_No": 20616,
-            "Skills": "HTML,CSS,Bootstrape",
-            "Batch": "2020-2023"
+            "Phone_number": "+919931060093",
+            "Roll_No": 19611,
+            "Skills": "Java,HTML,CSS, JavaScript",
+            "Batch": "2019-2022"
         },
         {
             "Timestamp": 44554.90064180555,
@@ -41,14 +41,14 @@
             "Batch": "2020-2023"
         },
         {
-            "Timestamp": 44563.7407897338,
-            "Full_Name": "Sonu Kumar Kushwaha",
-            "Email": "flyingsonu736@gmail.com",
+            "Timestamp": 44554.90038824074,
+            "Full_Name": "Supriya Kumari",
+            "Email": "supriya30769@gmail.com",
             "Course": "BCA",
-            "Phone_number": "+919931060093",
-            "Roll_No": 19611,
-            "Skills": "Java,HTML,CSS, JavaScript",
-            "Batch": "2019-2022"
+            "Phone_number": "08797113628",
+            "Roll_No": 20616,
+            "Skills": "HTML,CSS,Bootstrape",
+            "Batch": "2020-2023"
         },
         {
             "Timestamp": 44563.795849594906,
