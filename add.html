@@ -27,7 +27,7 @@
         <meta name="twitter:title" content="LAAP Fraternity">
         <meta name="twitter:description"
             content="We are here to make a LAAP IT team to create a website and for other technical support.">
-      
+
         <meta name="twitter:image:alt" content="LAAP Fraternity">
         <meta name="twitter:card" content="summary_large_image">
         <meta itemprop="name" content="LAAP Fraternity">
@@ -50,24 +50,36 @@
 
     <body>
         <div class="main" id="main">
-            <h2>LNMI PATNA - Developers Team</h2>
-            <form>
-                <input type="text" name="find" id="search" oninput="getMatch();" placeholder="type roll to search" class="form-control" >
+            <h3>Participation Form</h3>
+            <form autocomplete="on"
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdcwcNLI2W_mKen4z6GUyQn6sEXLtlvCLvjZjlUOiMblsk0Lw/formResponse"
+                method="post" target="main" id="myForm" onsubmit="ch();">
+                <input type="text" class="form-control" name="entry.2005620554" value="" placeholder="Full Name"
+                    required>
+                <input type="email" class="form-control" name="entry.1045781291" value="" placeholder="Email" required>
+                <input type="tel" class="form-control" name="entry.1166974658" value="" placeholder="Mobile" required>
+                <input type="text" class="form-control" name="entry.1065046570" value="" placeholder="Course" required>
+                <input type="number" class="form-control" name="entry.1225361862" value="" placeholder="Batch" required>
+                <input type="number" class="form-control" name="entry.839337160" value="" placeholder="Roll no."
+                    required>
+                <input type="text" class="form-control" name="entry.1457380529" value="" placeholder="Skills" required>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-outline-primary btn-lg mb-2 mt-5">Submit</button>
+                    <button type="reset" class="btn btn-outline-primary btn-lg mb-2 mt-5">Reset</button>
+                </div>
+                <br><br>
             </form>
-
-            <a href="./add.html" class="btn btn-outline-primary btn-lg mb-2 mt-5">Want to join Team?</a>
-
-        </div>
-        <div id="links" class="links">
 
         </div>
         <footer>Made with &#10084; By <a href="https://github.com/flyingsonu122">Sonu kumar</a></footer>
 
-        <script src="./check.js"></script>
+
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init();
         </script>
+
+        <script src="./main.js"></script>
     </body>
 
     <!--Made with love by Sonu kumar kushwaha -->
