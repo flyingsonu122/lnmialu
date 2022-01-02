@@ -16,7 +16,7 @@ check();
 
 function check() {
     if (find == '') {
-        fetch("https://api.apispreadsheets.com/data/2eVCEMKR31zNSUp4/").then(res => {
+        fetch("db.json").then(res => {
             if (res.status === 200) {
                 res.json().then(data => {
                     const yourData = data;
