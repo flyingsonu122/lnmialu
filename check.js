@@ -30,7 +30,7 @@ function check() {
                                 <h2>${i.Full_Name}</h2>
                                 <h4>${i.Course}</h4>
                                 <h4>${i.Roll_No}</h4>
-                                <p>${i.Session}</p>
+                                <p>${i.Batch}</p>
                                 <a href="mailto:${i.Email}">${i.Email}</a>
                                 <p>${i.Phone_number}</p>
                                 <p>${i.Skills}</p>
